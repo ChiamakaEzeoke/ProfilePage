@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+input{
+    display: block;
+    width: 350px;
+    height:30px;
+    margin-bottom:30px ;
+    align-self: center;
+    
+}
+textarea{
+    width: 350px;
+}
+#links{
+    border: 1px #ccc solid;
+    height:60px;
+    background-color: white;   
+}
+a{
+   margin-right: 50px;
+   color: black;
+   text-decoration: none;
+   font-size: large;
+   padding-top: 10px;
+}
+#list{
+    display:flex;
+    display: inline-flex;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+    margin: 0 25% 0 25%;
+    color: #404040;
+    
+}
+.container div{
+    border: 1px #ccc solid;
+    padding: 10px;
+   border-radius: 25px;
+ 
+}
+img{
+    display: flex;
+    flex-direction: row;
+    margin: 0 25% 0 25%;
+}
+.info{
+    margin-top: 50px;
+    line-height: 30px;
+    background-color: white;
+    
+}
+h2{
+    margin-bottom: 25px;
+    color: #191970;
+    
+}
+h2#contact{
+    display: flex;
+    justify-content: center;
+
+}
+
+input#send{
+    width: 80px;
+    background-color: #32cd32;
+    color: white;
+    display: inline;
+    margin-right: 180px;
+}
+input#reset{
+    width: 80px;
+    background-color: #ff3907;
+    color: white;
+    display: inline;
+
+}
+form{
+   margin-left: 20%;
+    display: block;
+    flex-direction: column;
+
+}
+body{
+    background: linear-gradient(to bottom, #ffffff 0%, #d5e4f3 100%);
+}
+main{
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
