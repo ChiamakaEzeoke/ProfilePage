@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiamaka Ezeeoke|Home</title>
+    <link rel = "stylesheet" type = "text/css" href ="style.css" media = "screen">
+    <meta name = "viewport", content = "device-width", initial-scale = "1.0">
+</head>
+<body>
+    <header>
+    <div id = "links">
+        <div id = "list">
+            <a href = "#biodata">Personal Info</a>
+            <a href = "#summary">Summary</a>
+            <a href = "#contact">Contact</a>
+        </div>
+    </div>
+    <h1>My Profile</h1>
+    
+    </header>
+
+    <img src = "img/strongWoman.jpg" width = "50%"alt = "My Picture">
+
+    <main>
+        Hi!<br>
+        I'm Chiamaka & I love Front-End!
+     </main>
+    
+    <div class = "container">
+    <div class= "info">
+        <h2 id = "biodata">Personal Information</h2>
+        <p>
+            Name: Ezeoke Chiamaka<br><br>
+            State of Origin: Anambra<br><br>
+            Date of Birth: 25 May 1998<br><br>
+            Address: Okota, Lagos.<br><br>
+            Occupation: Student<br><br>
+            Slack-Id: golden_amaka<br><br>
+            E-mail: aezeokeamaka@gmail.com<br><br>
+            Mobile Number: 08174366118<br><br>
+        </p>
+    </div>
+
+    <div class= "info">
+        <h2 id = "summary">Summary</h2>
+        <p>Current intern of Start.ng remote internship of the front end track investing on maximizing my skillset using this platform.
+            I am a goal driven lady with so much value invested in me.
+             I hope to be of great impact to the society and the world at large through any community available.
+            Music interests me alot and during my spare time; I listen to music and sing.
+            
+            French is one language that I find very interesting and I hope to visit France some day. 
+            My strength lies in being able to abstract and decompose problems when they arise.
+            I am known to possess good communication skills between people when the need arises.
+        </p>
+    </div>
+
+    <div class= "info">
+        <h2  id = "contact">Contact Me</h2>
+        <form action = "contact.php" method = "post" enctype = "text/plain">
+            <label for = "fname">Name</label>
+            <input type = "text" name = "fname" placeholder="  Full Name" required>
+
+            <label for = "email">E-Mail</label>
+            <input type = "e-mail" name = "email" placeholder="  E-Mail" required>
+
+            <label for = "message">Message</label><br>
+            <textarea id="textarea" rows="4" cols="50"></textarea><br>
+
+            <input type = "submit" value = "Send" id= "send">
+            <input type = "reset" value = "Reset" id= "reset">
+        </form>
+
+    </div>
+    </div>
+
+    <footer></footer>
+</body>
+</html>
