@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+:root{
+    --blue: #1c87c9;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+body{
+    color: rgb(101, 100, 100);
+    font-family: 'Baskervville', serif;
+}
+.form-elements{
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translate(-50%, 25%);
+    line-height: 2em;
+    border:0.1px solid var(--blue);
+    padding: 5% 10% 5% 10%;
+    border-radius: 25px;
+    box-shadow: 4px 4px 30px -7px grey;
+
+}
+div .form-elements{
+    width: fit-content;
+}
+.form-elements h3{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+input {
+    padding: 5px;
+    margin: 5px 0;
+    outline: none;
+    border-radius: 4px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: none;
+    border-bottom-style: groove;
+    border-bottom-color: #1c87c9;
+    width: -webkit-fill-available;
+}
+input:valid {
+    border-color: #F5F5F5;
+  }
+  
+  input:focus,
+  input:active {
+    border-color: transparent;
+    border: 0.5px solid #1c87c9;
+    box-shadow: 0 0 10px #9ecaed;
+  }
+.button {
+    background-color: #1c87c9;; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 25%;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+
+  }
+  .wrapper{
+      top: -200px;
+  }
+
+/*Style for Contact*/
+textarea{
+    padding: 5px;
+    margin: 5px 0;
+    outline: none;
+    border-radius: 10px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: #1c87c9;
+    
+    width: -webkit-fill-available;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+    text-align: center;
+    background-color: var(--blue);
+    color: white;
+    padding: 20px;
+}
